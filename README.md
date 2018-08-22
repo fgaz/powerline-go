@@ -156,7 +156,7 @@ Usage of powerline-go:
     	 (default "patched")
   -modules string
     	 The list of modules to load, separated by ','
-    	 (valid choices: aws, cwd, docker, dotenv, exit, git, gitlite, hg, host, jobs, load, nix-shell, perlbrew, perms, root, shell-var, ssh, termtitle, time, user, venv, node)
+    	 (valid choices: aws, cwd, docker, dotenv, exit, ghc-env, git, gitlite, hg, host, jobs, load, nix-shell, perlbrew, perms, root, shell-var, ssh, termtitle, time, user, venv, node)
     	 (default "venv,user,host,ssh,cwd,perms,git,hg,jobs,exit,root")
   -newline
     	 Show the prompt on a new line
@@ -169,7 +169,7 @@ Usage of powerline-go:
     	 Use '~' for your home dir. You may need to escape this character to avoid shell substitution.
   -priority string
     	 Segments sorted by priority, if not enough space exists, the least priorized segments are removed first. Separate with ','
-    	 (valid choices: aws, cwd, cwd-path, docker, exit, git-branch, git-status, hg, host, jobs, load, nix-shell, perlbrew, perms, root, ssh, time, user, venv, node)
+    	 (valid choices: aws, cwd, cwd-path, docker, exit, ghc-env, git-branch, git-status, hg, host, jobs, load, nix-shell, perlbrew, perms, root, ssh, time, user, venv, node)
     	 (default "root,cwd,user,host,ssh,perms,git-branch,git-status,hg,jobs,exit,cwd-path")
   -shell string
     	 Set this to your shell type

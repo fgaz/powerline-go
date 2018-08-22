@@ -164,6 +164,9 @@ var themes = map[string]Theme{
 		NixShellFg: 00,
 		NixShellBg: 69, // a light blue
 
+		GhcEnvFg: 177, // light purple
+		GhcEnvBg: 56,  // purple
+
 		HostnameColorizedFgMap: map[uint8]uint8{
 			0:   250,
 			1:   250,
@@ -510,6 +513,9 @@ var themes = map[string]Theme{
 		NixShellFg: 69, // a light blue
 		NixShellBg: 254,
 
+		GhcEnvFg: 56,  // purple
+		GhcEnvBg: 177, // light purple
+
 		HostnameColorizedFgMap: map[uint8]uint8{
 			0:   250,
 			1:   250,
@@ -834,6 +840,8 @@ var themes = map[string]Theme{
 	LoadThresholdBad: 1.0,
 	NixShellFg: 0,
 	NixShellBg: 4,
+	GhcEnvFg: 13,
+	GhcEnvBg: 56,
 	HostnameColorizedFgMap: map[uint8]uint8{
 		0: 14,
 		1: 14,
@@ -1158,6 +1166,8 @@ var themes = map[string]Theme{
 	LoadThresholdBad: 1.0,
 	NixShellFg: 0,
 	NixShellBg: 7,
+	GhcEnvFg: 13,
+	GhcEnvBg: 56,
 	HostnameColorizedFgMap: map[uint8]uint8{
 		0: 14,
 		1: 14,

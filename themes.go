@@ -114,4 +114,7 @@ type Theme struct {
 
 	NixShellFg uint8
 	NixShellBg uint8
+
+	GhcEnvFg uint8
+	GhcEnvBg uint8
 }
